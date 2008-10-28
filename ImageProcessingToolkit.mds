@@ -1,0 +1,30 @@
+<Combine name="ImageProcessingToolkit" fileversion="2.0" description="Simple image processing toolkit" outputpath="Build">
+  <Configurations active="Debug">
+    <Configuration name="Debug" ctype="CombineConfiguration">
+      <Entry build="True" name="ImageProcessor" configuration="Debug" />
+      <Entry build="True" name="Packages" configuration="" />
+      <Entry build="True" name="NoiserPlugin" configuration="Debug" />
+      <Entry build="True" name="ClenaerPlugin" configuration="Debug" />
+      <Entry build="True" name="ImageProcessor" configuration="Debug" />
+    </Configuration>
+    <Configuration name="Release" ctype="CombineConfiguration">
+      <Entry build="True" name="ImageProcessor" configuration="Release" />
+      <Entry build="True" name="Packages" configuration="" />
+      <Entry build="True" name="NoiserPlugin" configuration="Release" />
+      <Entry build="True" name="ClenaerPlugin" configuration="Release" />
+      <Entry build="True" name="ImageProcessor" configuration="Release" />
+    </Configuration>
+  </Configurations>
+  <StartMode startupentry="ImageProcessor" single="True">
+    <Execute type="None" entry="Packages" />
+    <Execute type="None" entry="NoiserPlugin" />
+    <Execute type="None" entry="ClenaerPlugin" />
+    <Execute type="None" entry="ImageProcessor" />
+  </StartMode>
+  <Entries>
+    <Entry filename="Packages.mdse" />
+    <Entry filename="NoiserPlugin/NoiserPlugin.mdp" />
+    <Entry filename="ClenaerPlugin/ClenaerPlugin.mdp" />
+    <Entry filename="ImageProcessor/ImageProcessor.mdp" />
+  </Entries>
+</Combine>
