@@ -1,0 +1,33 @@
+﻿<UserCombinePreferences version="1.0" filename="/home/mshahanov/Documents/Intellect/ImageProcessor.sln">
+  <Files>
+    <File name="ImageProcessor/Plugins/WindowManager.cs" line="100" column="70" />
+    <File name="Noiser/Noiser.cs" line="23" column="39" />
+    <File name="ImageProcessor/frmMain.cs" line="48" column="59" />
+    <File name="ImageProcessor/Processing/Processor.cs" line="37" column="70" />
+    <File name="ImageProcessor/Processing/MathUtils.cs" line="68" column="52" />
+  </Files>
+  <Views>
+    <ViewMemento id="ProjectPad">
+      <Node expanded="True">
+        <Node name="ImageProcessor" expanded="True">
+          <Node name="Processing" expanded="True" />
+          <Node name="frmMain.cs" selected="True" />
+        </Node>
+        <Node name="Noiser" expanded="True" />
+      </Node>
+    </ViewMemento>
+    <ViewMemento id="ClassPad">
+      <Node expanded="True">
+        <Node name="Cleaner" expanded="True" selected="True">
+          <Node name="Cleaner" expanded="True">
+            <Node name="Cleaner" expanded="True" />
+          </Node>
+        </Node>
+      </Node>
+    </ViewMemento>
+  </Views>
+  <Properties>
+    <Property key="ActiveWindow" value="/home/mshahanov/Documents/Intellect/ImageProcessor/frmMain.cs" />
+    <Property key="ActiveConfiguration" value="Debug|Any CPU" />
+  </Properties>
+</UserCombinePreferences>

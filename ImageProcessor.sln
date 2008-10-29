@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cleaner", "Cleaner\Cleaner.csproj", "{4CBCAF07-9945-4EA6-B654-753E833C3BCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcessor", "ImageProcessor\ImageProcessor.csproj", "{F5AF377C-8094-4AA1-9D0F-6F2B59343374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noiser", "Noiser\Noiser.csproj", "{638E9832-8105-4859-BEAA-F896143BCF6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CBCAF07-9945-4EA6-B654-753E833C3BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CBCAF07-9945-4EA6-B654-753E833C3BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CBCAF07-9945-4EA6-B654-753E833C3BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CBCAF07-9945-4EA6-B654-753E833C3BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{638E9832-8105-4859-BEAA-F896143BCF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{638E9832-8105-4859-BEAA-F896143BCF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{638E9832-8105-4859-BEAA-F896143BCF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{638E9832-8105-4859-BEAA-F896143BCF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5AF377C-8094-4AA1-9D0F-6F2B59343374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5AF377C-8094-4AA1-9D0F-6F2B59343374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5AF377C-8094-4AA1-9D0F-6F2B59343374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5AF377C-8094-4AA1-9D0F-6F2B59343374}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
